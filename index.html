@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>enviroCar-Documentation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
     <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.css" rel="stylesheet">
 
     <link href="./css/custom.css" rel="stylesheet">
-    
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="./assets/js/html5shiv.js"></script>
@@ -19,111 +20,119 @@
     <link rel="shortcut icon" href="./ico/favicon.png" type="image/png" />
     <link rel="icon" href="./ico/favicon.png" type="image/png" />
 
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a  class="brand" href="./index.html">
-            <img style="height:25px;" src="./img/enviroCar_logo_white_13-06-08_165x50.png" alt="enviroCar Logo"/>
-          </a>
-		  
-		<div>
-            <ul id="main-nav" class="nav pull-right droid-text">
-              <li><a href="https://envirocar.org">enviroCar project website</a></li>
-            </ul>
-        </div> 
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="./index.html">
+                    <img style="height:25px;" src="./img/enviroCar_logo_white_13-06-08_165x50.png" alt="enviroCar Logo" />
+                </a>
+
+                <div>
+                    <ul id="main-nav" class="nav pull-right droid-text">
+                        <li><a href="https://envirocar.org">enviroCar project website</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <div class="container leftband" style="padding-bottom: 20px">
         <h1>enviroCar Software</h1>
-		<p>Welcome to the enviroCar project’s software home page. It provides an overview and links to source code and documentation for the enviroCar open source projects <a href="https://github.com/enviroCar" title="enviroCar GitHub organisation">hosted on GitHub</a>. Please find general project information, maps and user login on the <a href="https://envirocar.org" title="enviroCar project website">main website</a>.</p>
-		
-		<p>The license information on this page is merely informative, please check the project repositories for detailed information.</p>
-		
-		<p>Code contributions are very welcome in all projects. Please check the README files for contact information and the issue trackers for current ongoing work. Post any questions regarding software to the <a href="http://envirocar-discuss.forum.52north.org/" title="enviroCar mailing list and discussion forum">enviroCar community mailing list and forum</a>.</p>
-        
-		<hr>
-		
-		<div class="row-fluid">
-			  <div class="span4">
-				<h2>Server</h2>
-				<p>The server component provides a RESTful API for tracks. It is written in Java and published under GNU Affero General Public License, Version 3 or later.</p>
-				<a href="https://github.com/enviroCar/enviroCar-server" target="_blank">Code</a> &middot;
-				<a href="http://envirocar.github.io/enviroCar-server" target="_blank">Documentation</a>
-				<br>
-			  </div>
-			  <div class="span4">
-				<h2>Website</h2>
-				<p>The website provides general information about the project as well as the user pages and links to analyses and maps. It is written in PHP and published under GNU General Public License, Version 3.</p>
-				<a href="https://github.com/enviroCar/enviroCar-www" target="_blank">Code</a> &middot;
-				<a href="https://github.com/enviroCar/enviroCar-www/blob/master/README.md" target="_blank">Install/Develop</a> &middot; 
-				<a href="https://github.com/enviroCar/enviroCar-www/blob/master/CONTRIBUTE.md" target="_blank">Contribute</a>
-				<br>
-			  </div>
-			  <div class="span4">
-				<h2>App</h2>
-				<p>Android app for collecting data from smartphone sensors and OBD-II interface in a car. Tracks can be uploaded to the enviroCar server. The app is published under GNU General Public License, Version 3.</p>
-				<a href="https://github.com/enviroCar/enviroCar-app" target="_blank">Code and Documentation</a>
-				<br>
-			  </div>
-		</div>
-		
-		<div class="row-fluid">
-			  <div class="span4">
-				<h2>Java Tools</h2>
-				<p>Various tools, libraries and WPS processes written in Java, published under the Apache Software License, Version 2.0.</p>
-				<a href="https://github.com/enviroCar/enviroCar-tools" target="_blank">Code and Documentation</a>
-				<br>
-			  </div>
-			  <div class="span4">
-				<h2>WPS</h2>
-				<p>A 52&deg;North Web Processing Services webapp with customized enviroCar settings and processes, published under GNU General Public License, Version 2.</p>
-				<a href="https://github.com/enviroCar/enviroCar-wps" target="_blank">Code</a>
-				<br>
-			  </div>
-			  <div class="span4">
-				<h2>Python</h2>
-				<p>Scripts showcasing the analysis of enviroCar data with Python. Scripts are published under the Apache Software License, Version 2.0.</p>
-				<a href="https://github.com/enviroCar/enviroCar-python" target="_blank">Code</a>
-				<br>
-			  </div>
-		</div>
-		
-		<div class="row-fluid">
-			  <div class="span4">
-				<h2>R extension package</h2>
-				<p>An extension package for the <a href="http://r-project.org/" title="R project">R environment for statistical computing and graphics</a> to download and analyze enviroCar data. The package is published under GPL version 2 or later.</p>
-				<a href="https://github.com/enviroCar/enviroCaR" target="_blank">Code and Documentation</a>
-				<br>
-			  </div>
-			  <div class="span4">
-				<h2>GeoEvent Processor</h2>
-				<p>enviroCar adapters for ESRI ArcGIS GeoEvent Processor for Server components, published under the Apache Software License, Version 2.0.</p>
-				<a href="https://github.com/enviroCar/enviroCar-gep-components" target="_blank">Code and Documentation</a>
-				<br>
-			  </div>
-			  <div class="span4">
-				<h2>JavaScript Library</h2>
-				<p>JavaScript components for enviroCar maps&#8212;based on the ESRI ArcGIS JavaScript API 3.5 and published under the Apache Software License, Version 2.0.</p>
-				<a href="https://github.com/enviroCar/enviroCar-js" target="_blank">Code and Documentation</a>
-				<br>
-			  </div>
-		</div>
-		
-		<div class="row-fluid">
-			<div class="span4">
-				<h2>Marketing</h2>
-				<p>Images, logos and texts. Published under a Creative Commons Attribution License.</p>
-				<a href="https://github.com/enviroCar/enviroCar-marketing" target="_blank">Documentation</a>
-				<br>
-			  </div>
-		</div>
+        <p>Welcome to the enviroCar project’s software home page. It provides an overview and links to source code and documentation for the enviroCar open source projects <a href="https://github.com/enviroCar" title="enviroCar GitHub organisation">hosted on GitHub</a>.
+            Please find general project information, maps and user login on the <a href="https://envirocar.org" title="enviroCar project website">main website</a>.</p>
 
-<!--		
+        <p>The license information on this page is merely informative, please check the project repositories for detailed information.</p>
+
+        <p>Code contributions are very welcome in all projects. Please check the README files for contact information and the issue trackers for current ongoing work. Post any questions regarding software to the <a href="http://envirocar-discuss.forum.52north.org/"
+                title="enviroCar mailing list and discussion forum">enviroCar community mailing list and forum</a>.</p>
+
+        <hr>
+
+        <div class="row-fluid">
+            <div class="span4">
+                <h2>Server</h2>
+                <p>The server component provides a RESTful API for tracks. It is written in Java and published under GNU Affero General Public License, Version 3 or later.</p>
+                <a href="https://github.com/enviroCar/enviroCar-server" target="_blank">Code</a> &middot;
+                <a href="http://envirocar.github.io/enviroCar-server" target="_blank">Documentation</a>
+                <br>
+            </div>
+            <div class="span4">
+                <h2>Website</h2>
+                <p>The website provides general information about the project as well as the user pages and links to analyses and maps. It is written in PHP and published under GNU General Public License, Version 3.</p>
+                <a href="https://github.com/enviroCar/enviroCar-www" target="_blank">Code</a> &middot;
+                <a href="https://github.com/enviroCar/enviroCar-www/blob/master/README.md" target="_blank">Install/Develop</a> &middot;
+                <a href="https://github.com/enviroCar/enviroCar-www/blob/master/CONTRIBUTE.md" target="_blank">Contribute</a>
+                <br>
+            </div>
+            <div class="span4">
+                <h2>App</h2>
+                <p>Android app for collecting data from smartphone sensors and OBD-II interface in a car. Tracks can be uploaded to the enviroCar server. The app is published under GNU General Public License, Version 3.</p>
+                <a href="https://github.com/enviroCar/enviroCar-app" target="_blank">Code and Documentation</a>
+                <br>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span4">
+                <h2>Visual Analytics SPA</h2>
+                <p>This WebApp provides visual analytics of tracks and driving behavior for users of the enviroCar Platform. It is written in AngularJS and is published under MIT license.</p>
+                <a href="https://github.com/enviroCar/envirocar-www-ng" target="_blank">Code and Documentation</a>
+                <br>
+            </div>
+            <div class="span4">
+                <h2>R extension package</h2>
+                <p>An extension package for the <a href="http://r-project.org/" title="R project">R environment for statistical computing and graphics</a> to download and analyze enviroCar data. The package is published under GPL version 2 or later.</p>
+                <a href="https://github.com/enviroCar/enviroCaR" target="_blank">Code and Documentation</a>
+                <br>
+            </div>
+            <div class="span4">
+                <h2>GeoEvent Processor</h2>
+                <p>enviroCar adapters for ESRI ArcGIS GeoEvent Processor for Server components, published under the Apache Software License, Version 2.0.</p>
+                <a href="https://github.com/enviroCar/enviroCar-gep-components" target="_blank">Code and Documentation</a>
+                <br>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span4">
+                <h2>Java Tools</h2>
+                <p>Various tools, libraries and WPS processes written in Java, published under the Apache Software License, Version 2.0.</p>
+                <a href="https://github.com/enviroCar/enviroCar-tools" target="_blank">Code and Documentation</a>
+                <br>
+            </div>
+            <div class="span4">
+                <h2>WPS</h2>
+                <p>A 52&deg;North Web Processing Services webapp with customized enviroCar settings and processes, published under GNU General Public License, Version 2.</p>
+                <a href="https://github.com/enviroCar/enviroCar-wps" target="_blank">Code</a>
+                <br>
+            </div>
+            <div class="span4">
+                <h2>Python</h2>
+                <p>Scripts showcasing the analysis of enviroCar data with Python. Scripts are published under the Apache Software License, Version 2.0.</p>
+                <a href="https://github.com/enviroCar/enviroCar-python" target="_blank">Code</a>
+                <br>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span4">
+                <h2>JavaScript Library</h2>
+                <p>JavaScript components for enviroCar maps&#8212;based on the ESRI ArcGIS JavaScript API 3.5 and published under the Apache Software License, Version 2.0.</p>
+                <a href="https://github.com/enviroCar/enviroCar-js" target="_blank">Code and Documentation</a>
+                <br>
+            </div>
+            <div class="span4">
+                <h2>Marketing</h2>
+                <p>Images, logos and texts. Published under a Creative Commons Attribution License.</p>
+                <a href="https://github.com/enviroCar/enviroCar-marketing" target="_blank">Documentation</a>
+                <br>
+            </div>
+        </div>
+
+        <!--
 		enviroCar software is open source and published under the Apache 2.0 (link) license. The following software is hosted at GitHub (https://github.com/enviroCar):
 
     Java-based tools for the enviroCar platform
@@ -134,40 +143,52 @@
     enviroCar gep components: enviroCar adapters for ESRI ArcGIS GeoEvent Processor for Server
 -->
         <hr>
-        
-        <div class="row-fluid">       
+
+        <div class="row-fluid">
             <div class="span4">
                 <h2>Hosted on Github</h2>
                 <a href="https://github.com/enviroCar" target="_blank" style="padding-left: 100px; padding-top: 100px;">
                     <img src="img/GitHub-Mark-64px.png" alt="GitHub Logo" />
                 </a>
-            </div>    	
+            </div>
             <div class="span4">
                 <script type="text/javascript" src="https://www.ohloh.net/p/642497/widgets/project_factoids_stats.js"></script>
             </div>
             <div class="span4">
                 <a class="twitter-timeline" href="https://twitter.com/enviroCar_org" data-widget-id="335068168525578241">Tweets von @enviroCar_org</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <script>
+                    ! function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                            p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + "://platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, "script", "twitter-wjs");
+                </script>
             </div>
         </div>
     </div>
 
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-  
-  <footer>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+
+    <footer>
         <div class="footer">
-        <div class="container">
+            <div class="container">
                 <div class="row">
                     <div class="span12" style="text-align: center; line-height: 100%;">
                         <span>&copy; 2014 enviroCar</span>
                         <span> &middot; <a href="https://envirocar.org/imprint.php">Imprint</a></span>
-						<span> &middot; <a href="mailto:envirocar@52north.org">Contact</a></span>
+                        <span> &middot; <a href="mailto:envirocar@52north.org">Contact</a></span>
                     </div>
                 </div>
+            </div>
         </div>
-        </div>
-  </footer>
-  
-  </body>
+    </footer>
+
+</body>
+
 </html>
